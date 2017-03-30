@@ -68,7 +68,7 @@ Platform(s)
       - Web/Point-and-click
       - `Discovery Environment <https://de.iplantcollaborative.org>`_
       - `DE Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
-      - `Quick Start <>`_
+      - `Quick Start <http://www.cyverse.org>`_
 
 Input and example data
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -85,8 +85,7 @@ Input and example data
     * - SRA Accession number
       - N/A
       - We will cover how to search for an accession
-      - In this example, we will 
-      download accession `SRR1761506 <https://www.ncbi.nlm.nih.gov/sra/?term=SRR1761506>`_ 
+      - In this example, we will download accession `SRR1761506 <https://www.ncbi.nlm.nih.gov/sra/?term=SRR1761506>`_ 
 
 
 ----------
