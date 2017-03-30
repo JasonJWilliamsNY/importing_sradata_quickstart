@@ -15,7 +15,7 @@ Discovery Environment**
 
 The `NCBI Sequence Read Archive (SRA) <https://www.ncbi.nlm.nih.gov/sra>`_ is a repository
 for high-throughput sequencing data. You can import data from the SRA into your Data Store
-using the Discovery Environment SRA-Import App. 
+using a Discovery Environment SRA-Import App. 
 
 .. tip::
 	According to the SRA homepage: "Sequence Read Archive (SRA) makes biological sequence 
@@ -62,7 +62,7 @@ Platform(s)
     * - Platform
       - Interface
       - Link
-      - Platform Documentation
+      - Documentation
       - Quick Start
     * - Discovery Environment
       - Web/Point-and-click
@@ -85,7 +85,8 @@ Input and example data
     * - SRA Accession number
       - N/A
       - We will cover how to search for an accession
-      - In this example, we will download accession `SRR1761506 <https://www.ncbi.nlm.nih.gov/sra/?term=SRR1761506>`_ 
+      - In this example, we will 
+      download accession `SRR1761506 <https://www.ncbi.nlm.nih.gov/sra/?term=SRR1761506>`_ 
 
 
 ----------
@@ -99,46 +100,45 @@ Get started
 	Searching the SRA can be complicated. Often a paper or reference will specify the 
 	accession number(s) connected to a dataset. You can search flexibly using a number of 
 	terms (such as the organism name) or the filters (e.g. DNA vs. RNA).  The `SRA Help Manual <https://www.ncbi.nlm.nih.gov/books/NBK56913/>`_
-	provides several useful explanations. It is important to know is that projects are 
+	provides several useful explanations. It is important to know that projects are 
 	organized and related at several levels, and some important terms include:
 	
-	 - **Bioproject**: A BioProject is a collection of biological data related to a single initiative, originating from a single organization or from a consortium of coordinating organizations; see for example `Bio Project 272719 <https://www.ncbi.nlm.nih.gov/bioproject/272719>`_
+	 - **Bioproject**: A BioProject is a collection of biological data related to a single initiative, originating from a single organization or from a consortium of coordinating organizations; see for example `BioProject 272719 <https://www.ncbi.nlm.nih.gov/bioproject/272719>`_
 	 - **Bio Sample**: A description of the source materials for a project
 	 - **Run**: These are the actual sequencing runs (usually starting with SRR); see for example `SRR1761506 <https://www.ncbi.nlm.nih.gov/sra/?term=SRR1761506>`_
 
 
-#. Obtain an SRA accession number (starting SRR***); If you do not have an accession, you can go to the `SRA homepage <https://www.ncbi.nlm.nih.gov/sra>`_ and search using a variety of search terms and filters (e.g. DNA vs. RNA, exome vs. genome, etc.) 
+1. Obtain an SRA accession number (starting with SRR***); If you do not have an accession, you can go to the `SRA homepage <https://www.ncbi.nlm.nih.gov/sra>`_ and search using a variety of search terms and filters (e.g. DNA vs. RNA, exome vs. genome, etc.).
 
-.. Note::
+.. Tip::
 	On the SRA homepage for each accession, you may wish to record some useful information about the run, including the sequencing format and the file size. 
 
-2. Log in to the `Discovery Environment <https://de.cyverse.org/de/>`_ and click on **Apps** and launch the `NCBI-SRA-Fastq-dump-2.8.1 <https://de.cyverse.org/de/?type=apps&app-id=37c71edc-0a09-11e7-8bc3-008cfa5ae621&system-id=de>`_ App
-3. Name your analysis and enter any desired comments
-4. Under "Inputs" enter the SRA accession run number (if you have already downloaded an SRA file you can use this App to decompress it into a fastq file - search for the file using the 'Browse' button)
+2. Log in to the `Discovery Environment <https://de.cyverse.org/de/>`_ and click on **Apps** icon; search for and launch the `NCBI-SRA-Fastq-dump-2.8.1 <https://de.cyverse.org/de/?type=apps&app-id=37c71edc-0a09-11e7-8bc3-008cfa5ae621&system-id=de>`_ App.
+3. Name your analysis and enter any desired comments.
+4. Under "Inputs" enter the SRA accession run number (if you have already downloaded an SRA file you can use this App to decompress it into a fastq file - search for the file using the 'Browse' button).
 
 .. tip::
 	Depending on the file size, this will take several minutes 
 
-5. (optional) Under "optional parameters" check 'Split files' if your data are paried-end
+5. (optional) Under "optional parameters" check 'Split files' if your data are paried-end.
 
 .. tip::
 	The SRA page for your run should indicate 'SINGLE' or 'PAIRED' under Library Layout; https://www.ncbi.nlm.nih.gov/sra/?term=SRR1761506
 
-6. (optional) Under "Output" enter a custom name for 'Sra output folder name' or leave the default
-7. Click **Launch Analysis**
-8. To view the status of the import and obtain results click on the **Analysis** icon 
-9. When the job status is marked 'Completed' in the Analysis window (you may have to refresh), click on the job name (e.g. 'SRA-Import-0.1.0_analysis1') to view the result in your data store
+6. (optional) Under "Output" enter a custom name for 'Sra output folder name' or leave the default.
+7. Click **Launch Analysis**.
+8. To view the status of the import and obtain results click on the **Analysis** icon.
+9. When the job status is marked 'Completed' in the Analysis window (you may have to refresh), click on the job name (e.g. 'SRA-Import-0.1.0_analysis1') to view the result in your data store.
 
 Summary
 ~~~~~~~
 In addition to a folder of logs you should have the following files:
+
 - A compressed file (including sequence data and metadata) in the NCBI ".sra" format
 - An output folder (default:'sra_out') containing your fastq file (sequence data). If paired-end, and the 'Split files' option was checked, you will have two .fastq files (_1 for left-reads, _2 for right reads). 
 
 
 **Next Steps:**
-
-----------
 
 Some common next steps include
 
@@ -146,6 +146,8 @@ Some common next steps include
 2. Using `Trimmomatic <http://www.usadellab.org/cms/?page=trimmomatic>`_ to filter and trim reads for quality control
 
 Both of these applications are available for use in the Discovery Environment. See `DE Apps catalog <https://wiki.cyverse.org/wiki/display/DEapps/List+of+Applications>`_ 
+
+----
 
 Additional information, help
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
