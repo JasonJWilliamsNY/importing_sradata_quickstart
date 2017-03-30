@@ -77,7 +77,7 @@ Input and example data
 
 .. list-table::
     :header-rows: 1
-    :widths: 10 10 10 10
+    :widths: auto
 
     * - Input File(s)
       - Format
