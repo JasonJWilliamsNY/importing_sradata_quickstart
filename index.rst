@@ -25,6 +25,8 @@ using a Discovery Environment SRA-Import App.
 	Illumina Genome Analyzer®, Applied Biosystems SOLiD System®, Helicos Heliscope®, 
 	Complete Genomics®, and Pacific Biosciences SMRT®."
 
+.. contents::
+
 ----
 
 Prerequisites
@@ -77,8 +79,7 @@ Input and example data
 
 .. list-table::
     :header-rows: 1
-    :widths: auto
-
+    
     * - Input File(s)
       - Format
       - Preparation/Notes
