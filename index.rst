@@ -26,7 +26,8 @@ using a Discovery Environment SRA-Import App.
 	Complete Genomics®, and Pacific Biosciences SMRT®."
 
 .. toctree::
-
+	
+	index
 	ArbStep1
 	ArbStep2
 
