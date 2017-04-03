@@ -27,6 +27,8 @@ using a Discovery Environment SRA-Import App.
 
 .. toctree::
 
+	ArbStep1
+	ArbStep2
 
 ----
 
