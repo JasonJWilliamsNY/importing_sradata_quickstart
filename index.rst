@@ -28,8 +28,9 @@ using a Discovery Environment SRA-Import App.
 .. toctree::
 	
 	index
-	ArbStep1
-	ArbStep2
+	Step One <ArbStep1.rst>
+	Step Two <ArbStep2.rst>
+	Step Three <ArbStep3.rst>
 
 ----
 
