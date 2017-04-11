@@ -29,9 +29,9 @@ using a Discovery Environment SRA-Import App.
 	:maxdepth: 2
 	
 	Quickstart home <index>
-	Step One <ArbStep1>
-	Step Two <ArbStep2>
-	Step Three <ArbStep3>
+	Step One <step1>
+	Step Two <step2>
+	Step Three <step3>
 
 ----
 
