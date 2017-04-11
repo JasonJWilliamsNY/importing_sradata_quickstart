@@ -28,10 +28,10 @@ using a Discovery Environment SRA-Import App.
 .. toctree::
 	:maxdepth: 2
 	
-	Quickstart home <index>
-	Step One <step1>
-	Step Two <step2>
-	Step Three <step3>
+	Quickstart home <index.rst>
+	Step One <step1.rst>
+	Step Two <step2.rst>
+	Step Three <step3.rst>
 
 ----
 
