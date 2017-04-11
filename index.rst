@@ -27,7 +27,7 @@ using a Discovery Environment SRA-Import App.
 
 .. toctree::
 	:glob:
-	:maxdepth: 2
+
 	
 	
 
