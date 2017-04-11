@@ -16,8 +16,7 @@ Goal One
 	:maxdepth: 2
 	
 	Quickstart home <index.rst>
-	Step Two <step2.rst>
-	Step Three <step3.rst>
+
 
 STEP One
 
