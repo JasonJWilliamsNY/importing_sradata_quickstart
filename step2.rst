@@ -12,10 +12,6 @@ Importing Data from the NCBI Sequence Read Archive (SRA) using the DE
 Goal Two
 --------
 
-.. toctree::
-	:maxdepth: 2
-	
-	Quickstart home <index.rst>
 
 STEP TWO
 
