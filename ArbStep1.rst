@@ -6,9 +6,18 @@ Importing Data from the NCBI Sequence Read Archive (SRA) using the DE
 ..
     Use short, imperative titles e.g. Upload and share data, uploading and
     sharing data
+    
 
-Goal
-----
+
+Goal One
+--------
+.. toctree::
+	:maxdepth: 2
+	
+	Quickstart home <index>
+	Step One <ArbStep1>
+	Step Two <ArbStep2>
+	Step Three <ArbStep3>    
 
 STEP One
 
