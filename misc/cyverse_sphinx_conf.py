@@ -19,7 +19,7 @@ language = None
 source_parsers = {
     '.md': CommonMarkParser,
 }
-source_suffix = ['.md', '.rst']
+source_suffix = ['.rst']
 
 templates_path = ['_templates']
 html_static_path = ['_static']
